@@ -13,16 +13,14 @@ class ProyectoController extends Controller
     }
 
     //metodo para crear proyectos
-   
 
-    public function hacemos (){
-        return view("hacemos");
-    }
-    public function conocenos (){
+  
+    
+    public function servicios (){
         return view("servicios");
     }
 
-    public function somos (){
+    public function programas (){
         return view("programas");
     }
 

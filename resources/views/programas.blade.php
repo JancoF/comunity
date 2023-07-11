@@ -128,7 +128,6 @@ outline: 0;
       <li><a href="inicio" class="nav-link px-2 text-dark">INICIO</a></li>
       <li><a href="programas" class="nav-link px-2 text-dark">PROGRAMAS Y FONDOS</a></li>
       <li><a href="servicios" class="nav-link px-2 text-dark">SERVICIOS</a></li>
-      <li><a href="contactos" class="nav-link px-2 text-dark">CONTACTOS</a></li>
     </ul>
 
     <div class="text-end">

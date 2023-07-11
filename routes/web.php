@@ -21,27 +21,17 @@ Route::get('/', function () {
 Route::get('/index',[ProyectoController::class, 'index']);
 
 // crud de proyectos
-Route::get("/create", [ProyectoController::class,'create']);
-
-
-Route::get('/hacemos',[ProyectoController::class, 'hacemos']);
-   
-
-Route:: get("/conocenos",[ProyectoController::class, 'conocenos']);
-
-Route:: get("/block",[ProyectoController::class, 'block']);
 
 Route::post('paypal/payment',[PaypalController::class,'payment'])->name('paypal');
 Route::get('paypal/succes',[PaypalController::class, 'succes'])->name('paypal_succes');
 Route::get('paypal/cancel',[PaypalController::class, 'cancel'])->name('paypal_cancel');
 
-Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'index'])->name('index');
-Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'fondos'])->name('fondos');
 
 Route::get('/inicio', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
-Route::get('/programas', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
 Route::get('/servicios', [App\Http\Controllers\ProyectoController::class, 'servicios'])->name('servicios');
-Route::get('/contactos', [App\Http\Controllers\ProyectoController::class, 'contactos'])->name('contactos');
+Route::get('/programas', [App\Http\Controllers\ProyectoController::class, 'programas'])->name('programas');
+
+
 
 
 Auth::routes();
