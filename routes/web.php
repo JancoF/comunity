@@ -16,3 +16,32 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/index',[ProyectoController::class, 'index']);
+
+// crud de proyectos
+Route::get("/create", [ProyectoController::class,'create']);
+
+
+Route::get('/hacemos',[ProyectoController::class, 'hacemos']);
+   
+
+Route:: get("/conocenos",[ProyectoController::class, 'conocenos']);
+
+Route:: get("/block",[ProyectoController::class, 'block']);
+
+Route::post('paypal/payment',[PaypalController::class,'payment'])->name('paypal');
+Route::get('paypal/succes',[PaypalController::class, 'succes'])->name('paypal_succes');
+Route::get('paypal/cancel',[PaypalController::class, 'cancel'])->name('paypal_cancel');
+
+Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'fondos'])->name('fondos');
+
+Route::get('/inicio', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
+
+
+
+Auth::routes();
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
