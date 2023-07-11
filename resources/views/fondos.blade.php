@@ -154,7 +154,7 @@ outline: 0;
           <div class="carousel-caption text-start">
             <h1>Fundacion territorial Puno</h1>
             <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
-            <p><a class="btn btn-lg btn-primary" href="#"></a></p>
+            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
 
           </div>
         </div>
@@ -164,24 +164,27 @@ outline: 0;
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>Comunitarios 2</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <h1>Fundacion territorial Puno</h1>
+            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
+            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
           </div>
         </div>
       </div>
+
+
       <div class="carousel-item">
       <img src="https://www.peruhop.com/wp-content/uploads/Puno-Guide-Gallery-2.jpg" alt="Imagen" width="100%" height="100%" class="carousel-image">
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Plataforma filantrópica estratégica para afrontar desafíos</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <h1>Fundacion territorial Puno</h1>
+            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
+            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
           </div>
         </div>
       </div>
     </div>
+    
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>

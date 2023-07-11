@@ -38,7 +38,9 @@ Route::get('paypal/cancel',[PaypalController::class, 'cancel'])->name('paypal_ca
 Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'fondos'])->name('fondos');
 
 Route::get('/inicio', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
-
+Route::get('/programas', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
+Route::get('/servicios', [App\Http\Controllers\ProyectoController::class, 'servicios'])->name('servicios');
+Route::get('/contactos', [App\Http\Controllers\ProyectoController::class, 'contactos'])->name('contactos');
 
 
 Auth::routes();

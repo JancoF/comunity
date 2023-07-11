@@ -10,7 +10,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.112.5">
     <title>Comunitarios</title>
-    <link rel="icon" type="image/png" href="{{ asset('images/Logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/Logos.png') }}">
 
         <!-- Scripts -->
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -125,10 +125,10 @@ outline: 0;
       </a>
 
     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-      <li><a href="conocenos" class="nav-link px-2 text-dark">INICIO</a></li>
-      <li><a href="hacemos" class="nav-link px-2 text-dark">PROGRAMAS Y FONDOS</a></li>
-      <li><a href="fondos" class="nav-link px-2 text-dark">SERVICIOS</a></li>
-      <li><a href="fondos" class="nav-link px-2 text-dark">CONTACTOS</a></li>
+      <li><a href="inicio" class="nav-link px-2 text-dark">INICIO</a></li>
+      <li><a href="programas" class="nav-link px-2 text-dark">PROGRAMAS Y FONDOS</a></li>
+      <li><a href="servicios" class="nav-link px-2 text-dark">SERVICIOS</a></li>
+      <li><a href="contactos" class="nav-link px-2 text-dark">CONTACTOS</a></li>
     </ul>
 
     <div class="text-end">
@@ -152,9 +152,10 @@ outline: 0;
 
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <h1>Fundacion territorial Puno</h1>
+            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
+            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
+
           </div>
         </div>
       </div>
@@ -163,24 +164,27 @@ outline: 0;
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>Comunitarios 2</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <h1>Fundacion territorial Puno</h1>
+            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
+            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
           </div>
         </div>
       </div>
+
+
       <div class="carousel-item">
       <img src="https://www.peruhop.com/wp-content/uploads/Puno-Guide-Gallery-2.jpg" alt="Imagen" width="100%" height="100%" class="carousel-image">
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>comonitarios 3</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <h1>Fundacion territorial Puno</h1>
+            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
+            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
           </div>
         </div>
       </div>
     </div>
+    
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -196,7 +200,7 @@ outline: 0;
 <div class="container col-xxl-8 px-4 ">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6">
-      <img src="images/Imagen2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      <img src="images/Imagen1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
     </div>
     <div class="col-lg-6">
       <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Nuestro proposito</h1>
@@ -208,14 +212,13 @@ outline: 0;
   </div>
 </div>
 
-
 <div class=" mb-1 text-white" style="background-color: #ff4563;">
 <div class=" container py-5">
-  <h1 class="text-center">¿Cómo generamos impacto?</h1>
+  <h1 class="text-center">¿Cómo facilitamos solución?</h1>
 <div class=" py-5 row align-items-md-stretch">
   <div class="col-md-6">
     <div class="h-100 p-5 text-bg-dark rounded-3">
-      <h2>Modelo de impacto</h2>
+      <h2>Modelo de inpacto</h2>
       <p>Definir la temática, objetivos y formato (Proyecto y planificación amigable)  </p>
       <p>Facilitar nuestra red para la integración de sub equipos, comités y/o jurados previo a difusión. </p>
       <p>Nos encargamos del proceso de difusión, postulación y selección de iniciativas a tu fondo.    </p>
@@ -244,15 +247,14 @@ outline: 0;
           <img src="Images/PunoColecta2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Puno Colecta</h5>
-            <p class="card-text">Dona todo lo que etengas xd</p>
-            <p class="card-text">Donativo: 30 </p>
+            <p class="card-text">Meta de recaudacion</p>
+            <p class="card-text">S/30,000,00 </p>
 
             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar" style="width: 25%">25%</div>
             </div>
             <div class="btn button-center py-2">
               <form action="{{route('paypal')}}" method="POST" >
-                <input name="hidden" name="precio" value="30" />
               <button type="submit" class="btn btn-primary">Donar</button>
             </form>
             </div>
@@ -264,8 +266,18 @@ outline: 0;
         <div class="card h-100">
           <img src="Images/FondoAntonia.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
+            <h5 class="card-title">Fondo Antonia</h5>
+            <p class="card-text">Meta de recaudacion</p>
+            <p class="card-text">S/20,000,00 </p>
+
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 60%">60%</div>
+            </div>
+            <div class="btn button-center py-2">
+              <form action="{{route('paypal')}}" method="POST" >
+              <button type="submit" class="btn btn-primary">Donar</button>
+            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -273,8 +285,18 @@ outline: 0;
         <div class="card h-100">
           <img src="Images/CFTP.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Sumate a la fundación</h5>
+            <p class="card-text">Meta de recaudacion.</p>
+            <p class="card-text">S/10,000,00 </p>
+
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 10%">10%</div>
+            </div>
+            <div class="btn button-center py-2">
+              <form action="{{route('paypal')}}" method="POST" >
+              <button type="submit" class="btn btn-primary">Donar</button>
+            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -319,10 +341,9 @@ outline: 0;
           <div class="row justify-content-center align-items-center">       
            <h5 class="text-uppercase">Contactanos en redes</h5>
           <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/comunitarios.ft/ "><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/comunitarios.ft "><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/company/comunitarios/"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
         </ul>
         </div> 
         </div>
