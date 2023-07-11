@@ -287,7 +287,7 @@ outline: 0;
           <img src="Images/CFTP.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Sumate a la fundación</h5>
-            <p class="card-text">Meta de recaudacion.</p>
+            <p class="card-text">Meta de recaudacion</p>
             <p class="card-text">S/10,000,00 </p>
 
             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
