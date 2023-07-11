@@ -35,7 +35,7 @@ Route::post('paypal/payment',[PaypalController::class,'payment'])->name('paypal'
 Route::get('paypal/succes',[PaypalController::class, 'succes'])->name('paypal_succes');
 Route::get('paypal/cancel',[PaypalController::class, 'cancel'])->name('paypal_cancel');
 
-Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('index');
+Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'index'])->name('index');
 Route::get('/fondos', [App\Http\Controllers\ProyectoController::class, 'fondos'])->name('fondos');
 
 Route::get('/inicio', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
