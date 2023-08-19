@@ -28,8 +28,8 @@ class ProyectoController extends Controller
         return view("inicio");
     }
 
-    public function contactos (){
-        return view("contactos");
+    public function contacto (){
+        return view("contacto");
     }
 
 }

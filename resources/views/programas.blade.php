@@ -7,17 +7,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.112.5">
     <title>Comunitarios</title>
     <link rel="icon" type="image/png" href="{{ asset('images/Logos.png') }}">
 
         <!-- Scripts -->
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
-
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
-
      <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -116,7 +112,6 @@ outline: 0;
 
   <!-- HEADER -->
 
-<main>
 <header class="p-3 text-bg" style="background-color: while;">
 <div class="container">
   <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -128,6 +123,7 @@ outline: 0;
       <li><a href="inicio" class="nav-link px-2 text-dark">INICIO</a></li>
       <li><a href="programas" class="nav-link px-2 text-dark">PROGRAMAS Y FONDOS</a></li>
       <li><a href="servicios" class="nav-link px-2 text-dark">SERVICIOS</a></li>
+      <li><a href="contacto" class="nav-link px-2 text-dark">CONTACTO</a></li>
     </ul>
 
     <div class="text-end">
@@ -139,173 +135,32 @@ outline: 0;
 </header>
 
     
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<!---fondooo--->
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/fondo.png" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Vista_de_Puno_y_el_Titicaca%2C_Per%C3%BA%2C_2015-08-01%2C_DD_63.JPG" alt="Imagen" width="100%" height="100%" class="carousel-image">
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Fundacion territorial Puno</h1>
-            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
-            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
-
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-      <img src="https://www.peru.travel/Contenido/Destino/Imagen/pe/37/1.3/Principal/Los%20Uros.jpg" alt="Imagen" width="100%" height="100%" class="carousel-image">
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Fundacion territorial Puno</h1>
-            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
-            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="carousel-item">
-      <img src="https://www.peruhop.com/wp-content/uploads/Puno-Guide-Gallery-2.jpg" alt="Imagen" width="100%" height="100%" class="carousel-image">
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Fundacion territorial Puno</h1>
-            <p>Creemos que el propósito y acciones de las organizaciones e iniciativas de agentes de cambio merecen reconocimiento, valoración y el empuje de nuestra comunidad</p>
-            <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
-          </div>
-        </div>
-      </div>
     </div>
-    
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
+</div>
 
 <!---fin de carrusel--->
 
-<div class="container col-xxl-8 px-4 ">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-6">
-      <img src="images/Imagen1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-    </div>
-    <div class="col-lg-6">
-      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Nuestro proposito</h1>
-      <p class="lead">Al 2026  somos una "Institución promotora de la articulación y filantropía regional siendo catalizador para el cierre de brechas impulsando y promoviendo <strong> el desarrollo de al menos 100 iniciativas que resuelvan desafíos desde y para la comunidad puneña".</strong>
-      </p>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-       </div>
-    </div>
-  </div>
-</div>
-
-
-<div class=" mb-1 text-white" style="background-color: #ff4563;">
-<div class=" container py-5">
-  <h1 class="text-center">¿Cómo facilitamos solución?</h1>
-<div class=" py-5 row align-items-md-stretch">
-  <div class="col-md-6">
-    <div class="h-100 p-5 text-bg-dark rounded-3">
-      <h2>Modelo de inpacto</h2>
-      <p>Definir la temática, objetivos y formato (Proyecto y planificación amigable)  </p>
-      <p>Facilitar nuestra red para la integración de sub equipos, comités y/o jurados previo a difusión. </p>
-      <p>Nos encargamos del proceso de difusión, postulación y selección de iniciativas a tu fondo.    </p>
-      <p>Pondremos a disposición nuestra web para avances y resultados del fondo, o si prefieres implementaremos una web personalizada.    </p>
-      <p>La transparencia es nuestra clave de crecimiento, crearemos un memorial y te informaremos amigablemente de todo el proceso    </p>
-      <p>Evaluaremos aprendizajes constantemente para facilitar un mejor impacto.    </p>
-      <p>Nuestra infraestructura es la tuya, te facilitamos la organización para impactar juntos.
-    </p>
-    </div>
-  </div>
-  <div class=" py-3 col-md-5">
-    <img src="images/Imagen1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-  </div>
-</div>
-</div>
-
-
-<div class=" text-white" style="background-color: #004aad;">
-<div class="container py-5" ;>
-  <h1 class="text-center p-3">Fondos y proyectos</h1>
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+  <h1 class="display-4 fw-bold text-body-emphasis">Nuestros resutados</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
     
-  <!--body cartas -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="Images/PunoColecta2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Puno Colecta</h5>
-            <p class="card-text">Meta de recaudacion</p>
-            <p class="card-text">S/30,000,00 </p>
+  </div>
 
-            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 25%">25%</div>
-            </div>
-            <div class="btn button-center py-2">
-              <form action="{{route('paypal')}}" method="POST" >
-              <button type="submit" class="btn btn-primary">Donar</button>
-            </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col" >
-        <div class="card h-100">
-          <img src="Images/FondoAntonia.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Fondo Antonia</h5>
-            <p class="card-text">Meta de recaudacion</p>
-            <p class="card-text">S/20,000,00 </p>
+</div>
 
-            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 60%">60%</div>
-            </div>
-            <div class="btn button-center py-2">
-              <form action="{{route('paypal')}}" method="POST" >
-              <button type="submit" class="btn btn-primary">Donar</button>
-            </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="Images/CFTP.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Sumate a la fundación</h5>
-            <p class="card-text">Meta de recaudacion.</p>
-            <p class="card-text">S/10,000,00 </p>
 
-            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 10%">10%</div>
-            </div>
-            <div class="btn button-center py-2">
-              <form action="{{route('paypal')}}" method="POST" >
-              <button type="submit" class="btn btn-primary">Donar</button>
-            </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
 
-        <!-- imagen desprp-->
 
-    
     <!-- FOOTER -->
   
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

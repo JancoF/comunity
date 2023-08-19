@@ -30,11 +30,17 @@ Route::get('paypal/cancel',[PaypalController::class, 'cancel'])->name('paypal_ca
 Route::get('/inicio', [App\Http\Controllers\ProyectoController::class, 'inicio'])->name('inicio');
 Route::get('/servicios', [App\Http\Controllers\ProyectoController::class, 'servicios'])->name('servicios');
 Route::get('/programas', [App\Http\Controllers\ProyectoController::class, 'programas'])->name('programas');
+Route::get('/contacto', [App\Http\Controllers\ProyectoController::class, 'contacto'])->name('contacto');
+
 
 
 
 
 Auth::routes();
 
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

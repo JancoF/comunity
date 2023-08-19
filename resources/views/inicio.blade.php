@@ -11,8 +11,11 @@
     <meta name="generator" content="Hugo 0.112.5">
     <title>Comunitarios</title>
     <link rel="icon" type="image/png" href="{{ asset('images/Logos.png') }}">
-
-        <!-- Scripts -->
+            <!-- letra contenido -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&display=swap" rel="stylesheet">
+            <!-- Scripts -->
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 
@@ -108,6 +111,18 @@ outline: 0;
     width: 100%;
     height: 100%;
   }
+
+  
+
+
+
+  p {
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+.nunito {
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
 </style>
 
 
@@ -124,10 +139,12 @@ outline: 0;
         <img src="images/LogoComunitarios.png" alt="logo" width="230" height="50">
       </a>
 
-    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 " >
       <li><a href="inicio" class="nav-link px-2 text-dark">INICIO</a></li>
       <li><a href="programas" class="nav-link px-2 text-dark">PROGRAMAS Y FONDOS</a></li>
       <li><a href="servicios" class="nav-link px-2 text-dark">SERVICIOS</a></li>
+      <li><a href="contacto" class="nav-link px-2 text-dark">CONTACTO</a></li>
+
     </ul>
 
     <div class="text-end">
@@ -171,6 +188,7 @@ outline: 0;
       </div>
 
 
+
       <div class="carousel-item">
       <img src="https://www.peruhop.com/wp-content/uploads/Puno-Guide-Gallery-2.jpg" alt="Imagen" width="100%" height="100%" class="carousel-image">
 
@@ -195,7 +213,6 @@ outline: 0;
   </div>
 
 <!---fin de carrusel--->
-
 <div class="container col-xxl-8 px-4 ">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6">
@@ -210,6 +227,7 @@ outline: 0;
     </div>
   </div>
 </div>
+
 
 <div class=" mb-1 text-white" style="background-color: #ff4563;">
 <div class=" container py-5">

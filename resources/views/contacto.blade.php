@@ -10,16 +10,21 @@
     <title>Comunitarios</title>
     <link rel="icon" type="image/png" href="{{ asset('images/Logos.png') }}">
 
-        <!-- Scripts -->
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+      
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
      <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+ <!-- Scripts -->
+
+ @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+    </head>
 
 <body>
 
   <style>
+           
+
     .form-control-dark {
 border-color: var(--bs-gray);
 }
@@ -112,7 +117,7 @@ outline: 0;
 
   <!-- HEADER -->
 
-<main>
+
 <header class="p-3 text-bg" style="background-color: while;">
 <div class="container">
   <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -137,230 +142,135 @@ outline: 0;
 
     
 <!---fondooo--->
-
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div  class=" bm-n5 carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/fondo.png" class="d-block w-100" alt="...">
+      <img src="images/f1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="container">
+      <div class="carousel-caption">
+        <h1 class="display-4 fst-italic py-5 " >Creemos juntos una forma poderosa de lograr un desarrollo sostenible</h1>
+        <p><a class="btn btn-lg btn-primary" href="#inicio">Más información</a></p>
+      </div>
     </div>
     </div>
   </div>
 </div>
 
-<!---fin de carrusel--->
-<div class="  text-white py-2" style="background-color: #004aad;">
- <div class="container">   
-<div class="p-2 mb-4  bg-body-arial rounded-3" >
-  <div class="container-fluid py-0">
-    <h1 class="display-5 fw-bold">Comunitarios a tu servicio</h1>
 
 
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 py-4 ">
-    <div class="col">
-      <div class="card h-90">
-        <img src="Images/servicios/ir1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        </div>
-      </div>
-      <p class="text-center">Asesoría y facilitación en inversión social y gestión fondos.</p>
-    </div>
+
+      <!-- contactos -->
+      <div class=" mt-n5 text-white py-3" style="background-color: #ff4563;">
+          <div class="container py-4">
+            <h1 class="display-5 fw-bold mb-3">Contacta con nuestro equipo</h1>
+
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last py-5">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img class=" d-block mx-auto mb-4 " src="images/enviar.png" alt="" width="72" height="57">
+                      <h5 class="card-title text-center">Comunitarios.ft@gmai.com</h5>
+
+                      <p class="card-text text-center">“Envíanos un mensaje a través de nuestro formulario y te responderemos en el menor tiempo posible” </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-7 col-lg-8">
+                    <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                          <div class="col-sm-6">
+                            <label for="firstName" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+              
+                          <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+              
+                          <div class="col-12">
+                            <label for="email" class="form-label">Email </label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                              Please enter a valid email address for shipping updates.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="telefono" class="form-label">Télefono </label>
+                            <input type="telefono" class="form-control" id="email" placeholder="+51926915834">
+                            <div class="invalid-feedback">
+                              Please enter a valid email address for shipping updates.
+                            </div>
+                          </div>
+              
+                          <div class="col-12">
+                            <label for="address" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="address" placeholder="av.avelino 123" required>
+                            <div class="invalid-feedback">
+                              Please enter your shipping address.
+                            </div>
+                          </div>
+        
+                  
+                
+                            <div class="col-md-5">
+                              <label for="country" class="form-label">Pais</label>
+                              <select class="form-select" id="country" required>
+                                <option value="">Perú</option>
+                                <option>Brasil</option>
+                                <option>Bolivia</option>
+        
+                              </select>
+                              <div class="invalid-feedback">
+                                Please select a valid country.
+                              </div>
+                            </div>
+                
+                            <div class="col-md-4">
+                              <label for="state" class="form-label">Estado</label>
+                              <select class="form-select" id="state" required>
+                                <option value="">Lima</option>
+                                <option>Arequipa</option>
+                                <option>Apurimac</option>
+                                <option>Ancash</option>
+                                <option>Puno</option>
+        
+                              </select>
+                              <div class="invalid-feedback">
+                                Please provide a valid state.
+                              </div>
+                            </div>
+                           
+                          </div>
+                
+                          <hr class="my-4">
+                
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="same-address">
+                            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+                          </div>
+        
+                          <hr class="my-4">
+                          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+                    </form>
+                </div>
+              </div>
+              </div>
+            </div>
+  
+  <!-- FOOTER -->
+
     
-  
-    <div class="col" >
-      <div class="card h-90">
-        <img src="Images/servicios/ir2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        </div>
-      </div>
-      <p class="text-center">Programas de articulación, vinculación, recaudación y movilización de recursos.</p>
-    </div>
-
-    <div class="col">
-      <div class="card h-90">
-        <img src="Images/servicios/ir3.png" class="card-img-top" alt="...">
-        <div class="card-body">    
-        </div>
-      </div>
-      <p class="text-center">Brindamos una plataforma de información abierta y transparente.</p>
-
-    </div>
-  </div>
-
-  
-
-    <div class="row row-cols-1 row-cols-md-3 g-4 py-0">
-    <div class="col" >
-      <div class="card h-90">
-        <img src="Images/servicios/ir4.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        </div>
-      </div>
-      <p class="text-center">Programas para el diagnóstico y/o generación de data.</p>
-    </div>
-
-    <div class="col">
-      <div class="card h-90">
-        <img src="Images/servicios/ir5.png" class="card-img-top" alt="...">
-        <div class="card-body"> 
-        </div>
-      </div>
-      <p class="text-center">Servicio de diseño, desarrollo y gestión de fondos filantrópicos para impulso de iniciativas.</p>
-    </div>
-
-    <div class="col">
-      <div class="card h-90">
-        <img src="Images/servicios/ir6.png" class="card-img-top" alt="...">
-        <div class="card-body">  
-        </div>
-      </div>
-      <p class="text-center">Aceleración de organizaciones de impacto (socioambientales) e iniciativas comunitarias.</p>
-    </div>
-
-  </div>
-  </div>
-  </div>
-</div>
-</div>
-</div>
-
-
-  </div>
-  </div>
-</div>
-</div>
-</div>
-
-<!-- segunda fila -->
-
-<div class="  text-white py-2" style="background-color: #ffde59;">
-  <div class="container"> 
-
- <div class="p-2 mb-4  bg-body-arial rounded-3" >
-   <div class="container-fluid py-0">
-     <h1 class="display-5 fw-bold">Conoce a nuestro equipo</h1>
-     <div class="row align-items-md-stretch">
-      
-      <div class="col-md-6">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/equipo/e1.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h4 class="card-title">Jimy Curo</h4>
-                <h5>Presidente ejecutivo, diseñador estratégico (descripción)</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="images/equipo/e4.png" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title">Beth Gonzales  </h4>
-              <h5>Directora de Alianzas y Articulación</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row align-items-md-stretch">
-      <div class="col-md-6">
-
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/equipo/e2.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h4 class="card-title">Janet Luna</h4>
-                <h5>Directora de Programas, Facilitación & Proyectos</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="images/equipo/e5.png" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title">Adderly Lopez </h4>
-              <h5>Director de Sostenibilidad Empresario Fintech</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row align-items-md-stretch">
-      <div class="col-md-6">
-
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/equipo/e3.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h4 class="card-title">Adrián Fernandez  </h4>
-                <h5>Director de Recursos Administrador</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-     <!-- segunda fila -->
-  <div class=" text-white py-2" style="background-color: #ff4563;">
-    <div class=" container py-5">
-      <h1 class="text-center">Construyamos impacto</h1>
-    <div class=" py-5 row align-items-md-stretch">
-      <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark rounded-3">
-          <h2>¿Cómo generaremos impacto?</h2>
-          <p>Definir la temática, objetivos y formato (Proyecto y planificación amigable)  </p>
-          <p>Facilitar nuestra red para la integración de sub equipos, comités y/o jurados previo a difusión. </p>
-          <p>Nos encargamos del proceso de difusión, postulación y selección de iniciativas a tu fondo.    </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark rounded-3">
-          <p>Pondremos a disposición nuestra web para avances y resultados del fondo, o si prefieres implementaremos una web personalizada.    </p>
-          <p>La transparencia es nuestra clave de crecimiento, crearemos un memorial y te informaremos amigablemente de todo el proceso    </p>
-          <p>Evaluaremos aprendizajes constantemente para facilitar un mejor impacto.    </p>
-          <p>Nuestra infraestructura es la tuya, te facilitamos la organización para impactar juntos.</p>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
-
-    <!-- FOOTER -->
-  
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="bootstrap" viewBox="0 0 118 94">
         <title>Bootstrap</title>

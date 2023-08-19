@@ -13,9 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <div class="alert alert-dark" role="alert">
-                        This is a dark alert—check it out!
-                      </div>
+
+                    {{ __('You are logged in!') }}
                 </div>
             </div>
         </div>
